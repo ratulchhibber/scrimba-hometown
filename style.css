@@ -1,0 +1,87 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #79b4a7;
+}
+
+.hero__container {
+  height: 70vh;
+  background-image: url("assets/vlad-kiselov-dHkh5YztXAA-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero__container .hero__title {
+  display: inline;
+  text-align: center;
+  color: rgb(125, 143, 19);
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.hero__container .hero__subTitle {
+  width: 400px;
+  color: rgb(125, 143, 19);
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.activities__container {
+  color: white;
+  text-shadow: 0 0 1px black;
+  text-align: center;
+}
+.activities__container .container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.activities__container .container .activity__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.activities__container .container h3 {
+  width: 200px;
+}
+.activities__container .container p {
+  width: 200px;
+}
+
+.guide__container {
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guide__container .card {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  background: #79b4a7;
+  border-radius: 20px;
+  border-bottom: 20px solid #baffdf;
+}
+.guide__container .card .guide__pic {
+  width: 180px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.guide__container .card .guide__info {
+  color: white;
+  text-shadow: 0 0 1px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */
